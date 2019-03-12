@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+	 <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180826062906_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180826063436_InitialCreate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManager.Model\ProjectManager.Model.csproj" />
+  </ItemGroup>
+
+</Project>
