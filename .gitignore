@@ -1,0 +1,24 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+ProjectManager.BusinessLayer\bin\Debug\netcoreapp2.0
+
+
+# IDEs and editors
+.vs\
+
+
+*.cache
+*.cache
+*.dll
+*.pdb
+*.json
+*.targets
+*.props
+*.dll
+*.dll
+*.pdb
+*.config
+*.CopyComplete
+*.cache
+*.cache
